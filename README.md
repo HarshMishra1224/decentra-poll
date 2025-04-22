@@ -68,3 +68,39 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+# DecentraPoll - Web3 Voting dApp
+
+A decentralized polling application where users can create, view, and vote in polls using the Ethereum Sepolia testnet and MetaMask.
+
+## Features
+
+- ✅ Create public polls with multiple options
+- ✅ Vote once per poll using MetaMask wallet
+- ✅ View total votes per option (on-chain)
+- ✅ "You’ve already voted" message using smart contract
+- ✅ Leaderboard showing most popular polls
+
+## Technologies Used
+
+- Solidity (Smart Contract)
+- React.js (Frontend)
+- Ethers.js (Blockchain integration)
+- MetaMask (Wallet)
+- Sepolia Testnet (Ethereum)
+
+## Smart Contract
+
+- Contract Address: 0xYOUR_CONTRACT_ADDRESS
+- Deployed on [Remix Ethereum IDE](https://remix.ethereum.org)
+
+## Setup Instructions
+
+1. Clone the repo:
+
+```bash
+git clone https://github.com/YOUR_USERNAME/decentra-poll.git
+cd decentra-poll
+npm install
+npm start
+```
